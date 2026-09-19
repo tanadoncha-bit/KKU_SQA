@@ -1,0 +1,20 @@
+1788853134608	geckodriver	INFO	Listening on 127.0.0.1:57843
+1788853137709	mozrunner::runner	INFO	Running command: "C:\\Users\\User1\\.cache\\selenium\\firefox\\win64\\155.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User1\\AppData\\Local\\Temp\\rust_mozprofileaovCOJ"
+Dynamically enable window occlusion 0
+1788853140854	Marionette	INFO	Marionette enabled
+1788853141180	Marionette	INFO	Listening on port 58414
+WebDriver BiDi listening on ws://127.0.0.1:57844
+Read port: 58414
+1788853141328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR shell_windows::limited_access_features] Error generating feature token: NS_ERROR_FAILURE
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Unspecified error" }
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Unspecified error" }
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Unspecified error" }
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Unspecified error" }
+1788853162199	Marionette	INFO	Stopped listening on port 58414
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null
+Dynamically enable window occlusion 1

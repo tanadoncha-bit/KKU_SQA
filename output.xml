@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.7 on win32)" generated="2026-09-11T10:35:36.686859" rpa="false" schemaversion="5">
+<suite id="s1" name="UAT Lab11 002" source="D:\Levto\Com Sci KKU\SQA\SQA_Lab11\SQA_Lab11\UAT_Lab11_002.robot">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary" type="SETUP">
+<arg>${DELAY}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-09-11T10:35:36.929400" elapsed="0.000331"/>
+</kw>
+<test id="s1-t1" name="TC 01 - Open Insurance Main Page" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:36.930620" level="INFO">Opening browser 'Edge' to base url 'http://sampleapp.tricentis.com/'.</msg>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-11T10:35:36.930372" elapsed="10.648339"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-11T10:35:47.579423" elapsed="0.137230"/>
+</kw>
+<status status="PASS" start="2026-09-11T10:35:36.929874" elapsed="10.787857"/>
+</test>
+<test id="s1-t2" name="TC 02 - Enter Vehicle Data for Automobile" line="16">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:47.722855" level="INFO">Clicking element 'id=nav_automobile'.</msg>
+<arg>id=nav_automobile</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:47.720766" elapsed="3.151138"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:50.875223" level="INFO">Selecting options from selection list 'id=make' by label BMW.</msg>
+<arg>id=make</arg>
+<arg>BMW</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:35:50.873765" elapsed="1.299934"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:52.176081" level="INFO">Typing text 'abc' into text field 'id=engineperformance'.</msg>
+<arg>id=engineperformance</arg>
+<arg>abc</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:52.175056" elapsed="0.491951"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:52.668163" level="INFO">Typing text '99/99/2020' into text field 'id=dateofmanufacture'.</msg>
+<arg>id=dateofmanufacture</arg>
+<arg>99/99/2020</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:52.667648" elapsed="0.450928"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:53.119744" level="INFO">Selecting options from selection list 'id=numberofseats' by label 9.</msg>
+<arg>id=numberofseats</arg>
+<arg>9</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:35:53.119210" elapsed="1.300743"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:54.420943" level="INFO">Selecting options from selection list 'id=fuel' by label Electric Power.</msg>
+<arg>id=fuel</arg>
+<arg>Electric Power</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:35:54.420477" elapsed="1.236716"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:55.658796" level="INFO">Typing text '-5000' into text field 'id=listprice'.</msg>
+<arg>id=listprice</arg>
+<arg>-5000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:55.658037" elapsed="0.425735"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:56.084992" level="INFO">Typing text '@@@###' into text field 'id=licenseplatenumber'.</msg>
+<arg>id=licenseplatenumber</arg>
+<arg>@@@###</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:56.084383" elapsed="0.463409"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:56.549747" level="INFO">Typing text '-1000' into text field 'id=annualmileage'.</msg>
+<arg>id=annualmileage</arg>
+<arg>-1000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:56.548859" elapsed="0.407120"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:56.957317" level="INFO">Clicking element 'id=nextenterinsurantdata'.</msg>
+<arg>id=nextenterinsurantdata</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:56.956838" elapsed="0.314031"/>
+</kw>
+<status status="PASS" start="2026-09-11T10:35:47.719426" elapsed="9.551948"/>
+</test>
+<test id="s1-t3" name="TC 03 - Enter Insurance Data" line="31">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:57.276281" level="INFO">Typing text '12345' into text field 'id=firstname'.</msg>
+<arg>id=firstname</arg>
+<arg>12345</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:57.275880" elapsed="0.431033"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:57.707947" level="INFO">Typing text '@@@' into text field 'id=lastname'.</msg>
+<arg>id=lastname</arg>
+<arg>@@@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:57.707467" elapsed="0.428104"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:58.137247" level="INFO">Typing text '99/99/2000' into text field 'id=birthdate'.</msg>
+<arg>id=birthdate</arg>
+<arg>99/99/2000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:58.136460" elapsed="0.483717"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:58.622115" level="INFO">Clicking element 'xpath=//label[.//input[@id='genderfemale']]'.</msg>
+<arg>xpath=//label[.//input[@id='genderfemale']]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:58.621260" elapsed="0.342452"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:58.966365" level="INFO">Typing text '!!!' into text field 'id=streetaddress'.</msg>
+<arg>id=streetaddress</arg>
+<arg>!!!</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:35:58.965858" elapsed="0.412740"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:35:59.380491" level="INFO">Selecting options from selection list 'id=country' by label Thailand.</msg>
+<arg>id=country</arg>
+<arg>Thailand</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:35:59.379755" elapsed="1.271745"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:00.652947" level="INFO">Typing text 'abcde' into text field 'id=zipcode'.</msg>
+<arg>id=zipcode</arg>
+<arg>abcde</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:00.652249" elapsed="0.423722"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:01.077373" level="INFO">Typing text '123456' into text field 'id=city'.</msg>
+<arg>id=city</arg>
+<arg>123456</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:01.076779" elapsed="0.437804"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:01.516685" level="INFO">Selecting options from selection list 'id=occupation' by label Employee.</msg>
+<arg>id=occupation</arg>
+<arg>Employee</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:36:01.515818" elapsed="1.247201"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:02.767115" level="INFO">Clicking element 'xpath=//label[.//input[@id='other']]'.</msg>
+<arg>xpath=//label[.//input[@id='other']]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:02.766470" elapsed="0.297645"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:03.065534" level="INFO">Clicking element 'id=nextenterproductdata'.</msg>
+<arg>id=nextenterproductdata</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:03.064997" elapsed="0.282442"/>
+</kw>
+<status status="PASS" start="2026-09-11T10:35:57.274869" elapsed="6.073507"/>
+</test>
+<test id="s1-t4" name="TC 04 - Enter Product Data" line="46">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:03.353753" level="INFO">Typing text '99/99/2026' into text field 'id=startdate'.</msg>
+<arg>id=startdate</arg>
+<arg>99/99/2026</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:03.351529" elapsed="0.495837"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:03.850971" level="INFO">Selecting options from selection list 'id=insurancesum' by label 7.000.000,00.</msg>
+<arg>id=insurancesum</arg>
+<arg>7.000.000,00</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:36:03.850247" elapsed="1.320494"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:05.172780" level="INFO">Selecting options from selection list 'id=meritrating' by label Bonus 1.</msg>
+<arg>id=meritrating</arg>
+<arg>Bonus 1</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:36:05.171950" elapsed="1.271310"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:06.444807" level="INFO">Selecting options from selection list 'id=damageinsurance' by label No Coverage.</msg>
+<arg>id=damageinsurance</arg>
+<arg>No Coverage</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:36:06.444191" elapsed="1.290133"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:07.735492" level="INFO">Clicking element 'xpath=//label[.//input[@id='EuroProtection']]'.</msg>
+<arg>xpath=//label[.//input[@id='EuroProtection']]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:07.734933" elapsed="0.289794"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:08.027017" level="INFO">Selecting options from selection list 'id=courtesycar' by label Yes.</msg>
+<arg>id=courtesycar</arg>
+<arg>Yes</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-09-11T10:36:08.026340" elapsed="1.257223"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-11T10:36:09.284871" level="INFO">Clicking element 'id=nextselectpriceoption'.</msg>
+<arg>id=nextselectpriceoption</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-11T10:36:09.284318" elapsed="0.304852"/>
+</kw>
+<status status="PASS" start="2026-09-11T10:36:03.350134" elapsed="6.240362"/>
+</test>
+<status status="PASS" start="2026-09-11T10:35:36.688479" elapsed="32.904573"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="UAT Lab11 002" id="s1" pass="4" fail="0" skip="0">UAT Lab11 002</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
